@@ -8,7 +8,9 @@
 package com.knight.estoque.controller;
 
 public class Livro  implements java.io.Serializable {
-    private java.lang.String nome;
+	private static final long serialVersionUID = 1L;
+
+	private java.lang.String nome;
 
     private java.lang.String[] autores;
 

@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Built-By: Weliff Lima
-Build-Jdk: 1.8.0_92
+Built-By: weliff
+Build-Jdk: 1.8.0_91
 Created-By: Maven Integration for Eclipse
 

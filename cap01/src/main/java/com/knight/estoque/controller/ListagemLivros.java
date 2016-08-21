@@ -40,7 +40,7 @@ public class ListagemLivros {
 	public static void main(String[] args) {
 		Endpoint.publish("http://localhost:8080/livros", new ListagemLivros());
 		System.out.println();
-		logger.info("Serviço inicializado...");
+		logger.info("ServiÃ§o inicializado...");
 
 	}
 
