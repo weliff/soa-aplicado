@@ -12,7 +12,7 @@ public class Client {
 		ListagemLivrosService service = new ListagemLivrosServiceLocator();
 		
 		ListagemLivros listagemLivros = service.getListagemLivrosPort();
-
+		new Livro();
 		Livro[] livros = listagemLivros.listarLivros();
 		livros = listagemLivros.listarLivrosPaginacao(0, 2);
 		for (Livro livro : livros) {

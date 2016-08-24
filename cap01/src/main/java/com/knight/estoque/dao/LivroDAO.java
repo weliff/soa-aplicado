@@ -26,9 +26,14 @@ public class LivroDAO {
 	}
 
 	private List<Livro> gerarLivros() {
-		Livro livro1 = new Livro("Guia do Programador", Arrays.asList("Paulo Silveira", "Adriano Almeida"), "Casa do Código", 2012, "Vá do \"nunca programei\" ...");
-		Livro livro2 = new Livro("Ruby on Rails", Arrays.asList("Vinícius Baggio Fuentes"), "Casa do Código", 2012, "Crie rapidamente aplicações web");
+		Livro livro1 = new Livro("Guia do Programador", Arrays.asList("Paulo Silveira", "Adriano Almeida"), "Casa do Cï¿½digo", 2012, "Vï¿½ do \"nunca programei\" ...");
+		Livro livro2 = new Livro("Ruby on Rails", Arrays.asList("Vinï¿½cius Baggio Fuentes"), "Casa do Cï¿½digo", 2012, "Crie rapidamente aplicaï¿½ï¿½es web");
 		return Arrays.asList(livro1, livro2);
+	}
+
+	public void criarLivro(Livro livro) {
+		// TODO Auto-generated method stub
+		
 	}
 		
 }
